@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :callbacks, only: :create
+  post '/', to: 'callbacks#create'
 end
